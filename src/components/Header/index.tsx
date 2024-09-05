@@ -1,4 +1,5 @@
 import './styles.css';
+import { Link } from 'react-router-dom'
 
 export function Header() {
     return (
@@ -7,10 +8,10 @@ export function Header() {
             <h3>KA<span>D</span>MA<span>.</span></h3>
             </div>
             <ul>
-                <li>Login</li>
-                <li>Registro</li>
-                <li>Preços</li>
-                <li>FAQ</li>
+        <Link to='/login'><li>Login</li></Link>
+        <Link to='/register'><li>Registro</li></Link>
+        <Link to='/pricing'><li>Pricing</li></Link>
+        <Link to='/suporte'><li>Suporte</li></Link>
             </ul>
         </div>
     )
