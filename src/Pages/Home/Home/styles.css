@@ -1,40 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: none;
-
-    text-decoration: none;
-    list-style: none;
-}
-
-:root {
-    --yellow-primary: #f8d230;
-    --yellow-light: #f2d06b;
-    --yellow-700: #ebb659;
-
-    --title-white: #ffffff;
-    --title-base: #272221;
-    --subtitle-base: #403937;
-    --text-base: #574F4D;
-
-    --font-text: "Montserrat", sans-serif;
-    --font-title: "Poppins", sans-serif;
-
-    --bg-gray: #323232;
-    --bg-none: #ffffff00;
-}
-
 .container-home {
-    margin-left: 14%;
+    position: relative;
 }
 
 .title {
     align-items: center;
     text-align: center;
-    margin-top: 6rem;
+    width: 100%;
+    margin-top: 8rem;
 }
 
 .title h1 {
@@ -46,10 +18,9 @@
 
 .border {
     border-bottom: 2px solid var(--yellow-light);
-    width: 60%;
+    width: 45%;
     position: relative;
-    left: 19.7%;
-    
+    left: 27%;
 }
 
 .btn-login {
@@ -59,14 +30,18 @@
     border: 1px solid;
     padding: 1rem;
     border-radius: 15px;
+
     background: var(--yellow-light);
     border-color: var(--bg-gray);
+    color: var(--title-base);
+
+    font-weight: bold;
     
     transition: all 0.4s ease;
 }
 
 .btn-login:hover {
     background: var(--bg-none);
-    color: var(--title-base);
+    color: var(--yellow-700);
 }
 

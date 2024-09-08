@@ -8,9 +8,9 @@ export function Home() {
                 <h1>
                     Automatizando seu ERP 
                     <div className="border"></div>
-                    <span>Reinvente-se!</span>
+                    <span>Inove sua empresa!</span>
                 </h1>
-                <button className='btn-login'>Acesse a Kadma.</button>
+                <button className='btn-login'>COMECE AGORA!</button>
             </div>
         </div>
     );
