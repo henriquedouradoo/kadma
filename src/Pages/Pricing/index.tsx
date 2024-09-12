@@ -4,7 +4,7 @@ export function Pricing() {
     return(
         <div className='container-pricing'>
             <div className="content-text">
-                <h2>Pricing - Serviços KADMA.</h2>
+                <h2>PRICING - KADMA.</h2>
                 <p>Abaixo nossa tabela de preços sobre nossos serviços:</p>
             </div>
             <div className="cards-container-01">
