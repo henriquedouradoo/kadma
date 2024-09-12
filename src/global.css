@@ -16,6 +16,7 @@
     --yellow-primary: #f8d230;
     --yellow-light: #f2d06b;
     --yellow-700: #ebb659;
+    --white: #ffffff;
 
     --title-white: #ffffff;
     --title-base: #272221;
@@ -27,5 +28,6 @@
 
     --bg-gray: #323232;
     --bg-none: #ffffff00;
+    -bg-black: #000;
 }
 
