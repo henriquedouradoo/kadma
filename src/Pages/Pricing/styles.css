@@ -1,5 +1,6 @@
 .container-pricing {
     height: 100vh;
+    margin-top: 2.2rem;
 }
 
 .content-text {
@@ -85,10 +86,10 @@
     font-family: var(--font-text);
     color: var(--white);
 
+    transition: all 0.4s ease;
+
 
 }
-
-
 
 .cards-container-02 {
     margin-left: 38%;
@@ -165,5 +166,94 @@
     font-family: var(--font-text);
     color: var(--white);
 
+    transition: all 0.4s ease;
 
+
+}
+
+.cards-container-03 {
+    margin-left: 61.3%;
+    margin-top: -35.6%;
+
+    height: 75%;
+    width: 21%;
+
+    background: var(--bg-gray);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    border-radius: 10px;
+}
+
+.card-03 svg {
+    margin: 1rem;
+
+    margin-top: 38%;
+}
+
+
+.card-03 h4 {
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    margin: 1.2rem;
+
+    color: var(--white);
+}
+
+.card-03 p {
+    font-size: 0.9rem;
+    font-family: var(font-text);
+
+    color: #C9C9C9;
+
+    margin: 1rem;
+
+    align-items: center;
+}
+
+.card-03 h1 {
+    margin: 1rem;
+    margin-top: 30%;
+
+    color: var(--white);
+}
+
+.card-03 span {
+    margin: 1rem;
+    display: flex;
+
+    margin-top: -8%;
+
+    font-weight: 200;
+    font-size: 0.8rem;
+    color: #C9C9C9;
+
+}
+
+.card-03 button {
+    border: none;
+    border-radius: 8px;
+    
+    margin: 1rem;
+    padding: 1.3rem;
+    align-items: center;
+    text-align: center;
+
+    width: 90%;
+    letter-spacing: 1px;
+    
+    margin-top: 0%;
+    background: var(--yellow-primary);
+
+    font-weight: 700;
+    font-family: var(--font-text);
+    color: var(--white);
+
+    transition: all 0.4s ease;
+
+
+}
+
+button:hover {
+    background: var(--yellow-light);
 }
