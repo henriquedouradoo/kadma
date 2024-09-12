@@ -1,0 +1,95 @@
+.container-pricing {
+    height: 100vh;
+}
+
+.content-text {
+   margin-left: 15%;
+   position: relative;
+   top: 3%;
+}
+
+.cards-container-01 {
+    margin-left: 15%;
+    position: relative;
+    top: 7%;
+    
+    height: 60%;
+    width: 21%;
+
+    background: var(--white);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    border-radius: 10px;
+
+}
+
+
+.card-01 h4 {
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    margin: 1.2rem;
+}
+
+.card-01 p {
+    font-size: 0.9rem;
+    font-family: var(font-text);
+
+    color: var(--text-base);
+
+    margin: 1rem;
+
+    align-items: center;
+}
+
+.card-01 h1 {
+    margin: 1rem;
+    margin-top: 30%;
+}
+
+.card-01 span {
+    margin: 1rem;
+    display: flex;
+
+    position: relative;
+    top: -8%;
+
+    font-weight: 200;
+    color: var(--text-base);
+
+}
+
+.card-01 button {
+    border: none;
+    
+    margin: 1rem;
+    padding: 1.3rem;
+    align-items: center;
+    text-align: center;
+
+    width: 90%;
+    
+    margin-top: -8%;
+
+
+}
+
+
+
+.cards-container-02 {
+    margin-left: 38%;
+    margin-top: -25.3%;
+
+    height: 60%;
+    width: 21%;
+
+    background: var(--white);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    border-radius: 10px;
+}
+
+.card-02 h4 {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
