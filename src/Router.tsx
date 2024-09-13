@@ -5,7 +5,7 @@ import { Pricing } from './Pages/Pricing';
 import { Suporte } from './Pages/Suporte';
 import { Home } from './Pages/Home/Home';
 import { DefaultLayout } from './layout/DefaultLayout';
-import { Dashboard } from './Pages/dashboard';
+import { Dashboard } from './Pages/Dashboard';
 
 export function Router() {
     return (
