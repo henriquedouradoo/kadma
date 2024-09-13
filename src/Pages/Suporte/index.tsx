@@ -1,8 +1,11 @@
+import './styles.css'
 
 export function Suporte() {
     return(
         <div>
-            <h2>Suporte</h2>
+            <div className="title-suporte">
+                <h3>Texto Suporte</h3>
+            </div>
         </div>
     )
 }
