@@ -3,7 +3,7 @@ import './styles.css'
 
 export function Login() {
     return(
-        <div>
+        <div className="container-login">
         <div className="container-right">
             <h3 className="title">
                 LOGIN
