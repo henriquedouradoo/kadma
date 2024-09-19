@@ -1,0 +1,47 @@
+.container-home {
+    position: relative;
+}
+
+.title {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 8rem;
+}
+
+.title h1 {
+    font-weight: 200;
+    font-family: var(--font-text);
+    color: var(--title-base);
+    font-size: 4rem;
+}
+
+.border {
+    border-bottom: 2px solid var(--yellow-light);
+    width: 45%;
+    position: relative;
+    left: 27%;
+}
+
+.btn-login {
+    margin-top: 2.8rem;
+    width: 16%;
+
+    border: 1px solid;
+    padding: 1rem;
+    border-radius: 15px;
+
+    background: var(--yellow-light);
+    border-color: var(--bg-gray);
+    color: var(--title-base);
+
+    font-weight: bold;
+    
+    transition: all 0.4s ease;
+}
+
+.btn-login:hover {
+    background: var(--bg-none);
+    color: var(--yellow-700);
+}
+
