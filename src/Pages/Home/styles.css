@@ -23,7 +23,7 @@
     left: 27%;
 }
 
-.btn-login {
+.btn-home {
     margin-top: 2.8rem;
     width: 16%;
 
@@ -35,13 +35,13 @@
     border-color: var(--bg-gray);
     color: var(--title-base);
 
-    font-weight: bold;
+    font-weight: 500;
     font-family: var(--font-text);
     
     transition: all 0.4s ease;
 }
 
-.btn-login:hover {
+.btn-home:hover {
     background: var(--bg-none);
     color: var(--yellow-700);
 }

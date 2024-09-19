@@ -11,7 +11,7 @@ export function Home() {
                     <div className="border"></div>
                     <span>Inove sua empresa!</span>
                 </h1>
-                <Link to="/pricing"><button className='btn-login'>COMECE AGORA!</button> </Link> 
+                <Link to="/pricing"><button className='btn-home'>COMECE AGORA!</button> </Link> 
                 </div>
             </div>
     );
