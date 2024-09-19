@@ -1,6 +1,4 @@
 import { Routes, Route } from 'react-router-dom';
-import { Login } from './Pages/Login/Login';
-import { Registro } from './Pages/Registro';
 import { Pricing } from './Pages/Pricing';
 import { Suporte } from './Pages/Suporte';
 import { Home } from './Pages/Home';
