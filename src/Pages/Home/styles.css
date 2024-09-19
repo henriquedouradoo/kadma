@@ -36,6 +36,7 @@
     color: var(--title-base);
 
     font-weight: bold;
+    font-family: var(--font-text);
     
     transition: all 0.4s ease;
 }
