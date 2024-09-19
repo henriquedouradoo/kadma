@@ -9,11 +9,9 @@ export function Header() {
             </div>
             <ul>
         <Link to='/'><li>Home</li></Link>
-        <Link to='/test'><li>test</li></Link>
-        <Link to='/login'><li>Login</li></Link>
-        <Link to='/register'><li>Registro</li></Link>
         <Link to='/pricing'><li>Pricing</li></Link>
         <Link to='/suporte'><li>Suporte</li></Link>
+        <Link to='/login'><li>Acessar</li></Link>
             </ul>
         </div>
     )
