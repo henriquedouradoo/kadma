@@ -7,6 +7,7 @@ import { Dashboard } from './Pages/Dashboard';
 import { RedirectToSignIn, SignedIn, SignedOut } from '@clerk/clerk-react';
 import Clerk from './components/Clerk';
 
+
 export function Router() {
     return (
         <Routes>

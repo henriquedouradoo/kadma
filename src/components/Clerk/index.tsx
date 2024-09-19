@@ -3,7 +3,7 @@ import './styles.css'
 
 export default function Clerk() {
   return (
-    <div>
+    <div className="container-clerk">
       <SignedOut>
       <SignInButton forceRedirectUrl="/dashboard">
         <button className="btn-enter">   Login   </button>
