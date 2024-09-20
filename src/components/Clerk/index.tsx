@@ -6,7 +6,7 @@ export default function Clerk() {
     <div className="container-clerk">
       <SignedOut>
       <SignInButton mode="redirect" forceRedirectUrl="/dashboard">
-        <button className="btn-enter">   Login   </button>
+        <button className="btn-enter">   Dashboard   </button>
       </SignInButton>
       </SignedOut>
     </div>
