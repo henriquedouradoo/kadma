@@ -12,7 +12,6 @@ export function Header() {
             <ul className='navbar'>
         <Link to='/'><li>Home</li></Link>
         <Link to='/pricing'><li>Pricing</li></Link>
-        <Link to='/suporte'><li>Suporte</li></Link>
         <div className="clerk">
             <Clerk />
             </div>

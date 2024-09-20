@@ -1,6 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
 import { Pricing } from './Pages/Pricing';
-import { Suporte } from './Pages/Suporte';
 import { Home } from './Pages/Home';
 import { DefaultLayout } from './layout/DefaultLayout';
 import { Dashboard } from './Pages/Dashboard';
@@ -17,7 +16,6 @@ export function Router() {
                 <Route path='/' element={<Clerk />} />
 
                 <Route path='/pricing' element={<Pricing />} />
-                <Route path='/suporte' element={<Suporte />} />
             </Route>
             <Route path='/dashboard' element={
                 <>
