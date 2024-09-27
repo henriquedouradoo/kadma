@@ -1,7 +1,7 @@
 
 import Clerk from '../Clerk';
 import './styles.css';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 export function Header() {
     return (
@@ -10,7 +10,6 @@ export function Header() {
             <h3>KA<span>D</span>MA<span>.</span></h3>
             </div>
             <ul className='navbar'>
-        <Link to='/'><li>Home</li></Link>
         <Link to='/pricing'><li>Pricing</li></Link>
         <div className="clerk">
             <Clerk />
