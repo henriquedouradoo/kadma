@@ -29,11 +29,10 @@ body {
 
 ul {
     display: flex;
-    gap: 3.5rem;
 }
 
 li {
-    color: var(--subtitle-base);
+    color: var(--white);
     cursor: pointer;
     font-family: var(--font-text);
     transition: all 0.4s ease;
@@ -45,5 +44,6 @@ li:hover {
 
 .navbar {
     align-items: center;
+    margin-right: 10%;
 }
 

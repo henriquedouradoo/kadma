@@ -11,6 +11,7 @@ body {
     display: flex;
     padding: 2.0rem;
     width: 100%;
+
     
 }
 
@@ -31,11 +32,11 @@ body {
 
 ul {
     display: flex;
-    gap: 4.5rem;
+    gap: 1rem;
 }
 
 li {
-    color: var(--subtitle-base);
+    color: var(--white);
     cursor: pointer;
     font-family: var(--font-text);
     transition: all 0.4s ease;

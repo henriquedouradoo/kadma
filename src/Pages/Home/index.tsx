@@ -1,18 +1,22 @@
 
 import { Link } from 'react-router-dom';
 import './styles.css';
-
+import HomeImg from '../../Assets/home.svg';
 export function Home() {
     return(
         <div className='container-home'>
             <div className="title">
                 <h1>
-                    Automatizando seu ERP 
-                    <div className="border"></div>
-                    <span>Inove sua empresa!</span>
+                    Simplifique o
+                    <br />
+                    <span>seu sistema ERP</span>
                 </h1>
-                <Link to="/pricing"><button className='btn-home'>COMECE AGORA!</button> </Link> 
+                <h6>
+                Nunca foi tão fácil automatizar seus relatórios e <br />  aprimorar as métricas de seu time!
+                </h6>
+                <Link to="/pricing"><button className='btn-home'>Get Started</button> </Link> 
                 </div>
+                <img className='img-home' src={HomeImg} />
             </div>
     );
 }

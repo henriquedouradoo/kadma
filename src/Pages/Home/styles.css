@@ -1,39 +1,48 @@
 .container-home {
     position: relative;
+    background: var(--bg-black);
+    height: 100vh;
 }
 
 .title {
     align-items: center;
-    text-align: center;
+    text-align: left;
     width: 100%;
-    margin-top: 8rem;
+    margin-top: 5rem;
+
+    margin-left: 6%;
+}
+
+.title h6 {
+    align-items: center;
+
+    font-weight: 300;
+    font-size: 1.35rem;
+
+    font-family: var(--font-title);
+    color: var(--white);
 }
 
 .title h1 {
-    font-weight: 200;
-    font-family: var(--font-text);
-    color: var(--title-base);
-    font-size: 4rem;
-}
+    font-weight: 500;
+    font-family: var(--font-title);
+    color: var(--white);
+    font-size: 4.3rem;
 
-.border {
-    border-bottom: 2px solid var(--yellow-light);
-    width: 45%;
-    position: relative;
-    left: 27%;
+    margin-bottom: 2rem;
 }
 
 .btn-home {
     margin-top: 2.8rem;
-    width: 16%;
+    width: 12%;
 
     border: 1px solid;
     padding: 1rem;
-    border-radius: 15px;
+    border-radius: 10px;
 
     background: var(--yellow-light);
     border-color: var(--bg-gray);
-    color: var(--title-base);
+    color: var(--black);
 
     font-weight: 500;
     font-family: var(--font-text);
@@ -42,8 +51,18 @@
 }
 
 .btn-home:hover {
-    background: var(--bg-none);
-    color: var(--yellow-700);
+    background: var(--bg-yellow);
+    color: var(--white);
+
 }
 
+.img-home {
+    width: 50%;
+    margin-left: 45%;
 
+    margin-top: -30%;
+}
+
+.img-parceiros {
+    width: 10%;
+}

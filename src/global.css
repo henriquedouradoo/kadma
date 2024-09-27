@@ -17,6 +17,7 @@
     --yellow-light: #f2d06b;
     --yellow-700: #ebb659;
     --white: #ffffff;
+    --black: #000;
 
     --title-white: #ffffff;
     --title-base: #272221;
@@ -30,5 +31,6 @@
     --bg-none: #ffffff00;
     --bg-black: #2B2B2B;
     --bg-card: #4b4b4ba5;
+    --bg-yellow: #f8d230;
 }
 
