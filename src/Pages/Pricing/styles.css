@@ -1,5 +1,8 @@
 .container-pricing {
-    height: 100vh;
+    height: 91vh;
+    background: var(--bg-black);
+
+    overflow-y: hidden;
 
 }
 
@@ -12,6 +15,12 @@
 .content-text h2 {
     font-style: 100;
     font-family: var(--font-text);
+
+    color: var(--white);
+}
+
+.content-text p {
+    color: var(--white);
 }
 
 .cards-container-01 {
@@ -189,6 +198,7 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
     border-radius: 10px;
+    
 }
 
 .card-03 svg {

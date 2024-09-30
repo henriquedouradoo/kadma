@@ -18,7 +18,7 @@ export function Home() {
                 Nunca foi tão fácil automatizar seus relatórios e 
                 <br />  aprimorar as métricas de seu time!
                 </h6>
-                <Link to="/pricing"><button className='btn-home'>Get Started</button> </Link> 
+                <Link to="/dashboard"><button className='btn-home'>Get Started</button> </Link> 
                 </div>
                 <img className='img-home' src={HomeImg} />
                 <img className='logo-img' src={LogoImg} />

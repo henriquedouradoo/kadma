@@ -7,7 +7,7 @@ export function Header() {
     return (
         <div className="header-container">
             <div className="logo">
-            <h3>KA<span>D</span>MA<span>.</span></h3>
+            <Link to='/'><h3>KA<span>D</span>MA<span>.</span></h3></Link>
             </div>
             <ul className='navbar'>
         <Link to='/pricing'><li>Pricing</li></Link>
