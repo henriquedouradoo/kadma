@@ -2,6 +2,8 @@
     position: relative;
     background: var(--bg-black);
     height: 100vh;
+
+    width: 100%;
 }
 
 .title {
@@ -57,10 +59,11 @@
 }
 
 .img-home {
-    width: 50%;
+    width: 45%;
     margin-left: 45%;
 
     margin-top: -30%;
+
 }
 
 .logo-img {

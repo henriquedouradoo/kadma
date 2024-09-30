@@ -9,6 +9,9 @@ export function HeaderDashboard() {
             </div>
             <ul>
             <SignedIn>
+                <div className="user-btn">
+                <UserButton />
+                </div>
             <UserButton />
             </SignedIn>
             </ul>

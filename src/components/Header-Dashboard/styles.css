@@ -32,7 +32,7 @@ body {
 
 ul {
     display: flex;
-    gap: 1rem;
+    gap: 3rem;
 }
 
 li {
@@ -44,3 +44,4 @@ li {
 li:hover {
     color: var(--yellow-primary);
 }
+
