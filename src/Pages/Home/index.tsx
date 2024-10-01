@@ -22,6 +22,7 @@ export function Home() {
                 </div>
                 <img className='img-home' src={HomeImg} />
                 <img className='logo-img' src={LogoImg} />
+
             </div>
     );
 }
