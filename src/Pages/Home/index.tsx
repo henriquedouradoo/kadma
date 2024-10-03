@@ -4,6 +4,7 @@ import './styles.css';
 import HomeImg from '../../Assets/home.svg';
 
 import LogoImg from '../../Assets/logos.png';
+import { Features } from '../../components/Features';
 
 export function Home() {
     return(
@@ -23,6 +24,7 @@ export function Home() {
                 <img className='img-home' src={HomeImg} />
                 <img className='logo-img' src={LogoImg} />
 
+            <Features />
             </div>
     );
 }
