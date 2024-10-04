@@ -1,8 +1,12 @@
 import './styles.css'
+import chatbotImg from '../../Assets/Chat bot-cuate.svg';
 
 export function Features() {
     return (
         <div className="features-container">
+            <div className="chatbot-img">
+            <img src={chatbotImg} />
+            </div>     
             <h3>Features</h3>
             <div className="cards">
                 <div className="feature-01">
@@ -88,7 +92,7 @@ export function Features() {
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, aut!</p>
                 </div>
             </div>
+            <br />
         </div>
-
     )
 }
