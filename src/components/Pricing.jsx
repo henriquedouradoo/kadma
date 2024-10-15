@@ -14,7 +14,7 @@ const Pricing = () => {
               <p className="text-4xl mb-8">
                 {option.title}
                 {option.title === "Pro" && (
-                  <span className="bg-gradient-to-r from-orange-500 to-red-400 text-transparent bg-clip-text text-xl mb-4 ml-2">
+                  <span className="bg-gradient-to-r from-yellow-500 to-yellow-400 text-transparent bg-clip-text text-xl mb-4 ml-2">
                     (Most Popular)
                   </span>
                 )}
@@ -33,7 +33,7 @@ const Pricing = () => {
               </ul>
               <a
                 href="#"
-                className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-20 tracking-tight text-xl hover:bg-yellow-900 border border-yellow-900 rounded-lg transition duration-200"
+                className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-20 tracking-tight text-xl hover:bg-yellow-500 border border-yellow-600 rounded-lg transition duration-200"
               >
                 Subscribe
               </a>
