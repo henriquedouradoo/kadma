@@ -5,12 +5,6 @@ import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
 
-import user1 from "../assets/profile-pictures/user1.jpg";
-import user2 from "../assets/profile-pictures/user2.jpg";
-import user3 from "../assets/profile-pictures/user3.jpg";
-import user4 from "../assets/profile-pictures/user4.jpg";
-import user5 from "../assets/profile-pictures/user5.jpg";
-import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
   { label: "Diferenciais", href: "#" },
@@ -19,136 +13,101 @@ export const navItems = [
   { label: "Testemunhas", href: "#" },
 ];
 
-export const testimonials = [
-  {
-    user: "John Doe",
-    company: "Stellar Solutions",
-    image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
-  },
-  {
-    user: "Jane Smith",
-    company: "Blue Horizon Technologies",
-    image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
-  },
-  {
-    user: "David Johnson",
-    company: "Quantum Innovations",
-    image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
-  },
-  {
-    user: "Ronee Brown",
-    company: "Fusion Dynamics",
-    image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
-  },
-  {
-    user: "Michael Wilson",
-    company: "Visionary Creations",
-    image: user5,
-    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
-  },
-  {
-    user: "Emily Davis",
-    company: "Synergy Systems",
-    image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
-  },
-];
 
 export const features = [
   {
     icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    text: "Chatbot interativo",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Facilmente você decide o que deseja utilizando da ferramenta do chatbot.",
   },
   {
     icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    text: "Simplicidade e automação inteligente",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Processos manuais são reduzidos ao mínimo, aumenta a produtividade e reduz erros humanos.",
   },
   {
     icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    text: "Segurança avançada e compliance",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Alto nível de segurança na automação do ERP, garantindo que dados sensíveis estejam protegidos contra ameaças.",
   },
   {
     icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    text: "Customização sob medida",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Soluções de ERP automatizadas que se ajustam especificamente às operações e necessidades exclusivas de cada cliente.",
   },
   {
     icon: <PlugZap />,
-    text: "Collaboration Tools",
+    text: "Integração multissistemas",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Capacidade de integrar com outras ferramentas e plataformas que a empresa já utiliza, como sistemas de CRM, BI, e-commerce, contabilidade, entre outros.",
   },
   {
     icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    text: "Análise de dados em tempo real",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Funções de Business Intelligence (BI) e relatórios analíticos automatizados, proporcionando dados em tempo real para a tomada de decisão.",
   },
 ];
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "Automação de Processos Repetitivos",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "O chatbot com BI pode automatizar tarefas repetitivas que consomem tempo.",
   },
   {
-    title: "Review code without worry",
+    title: "Redução do Tempo de Atendimento ao Cliente",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Um chatbot inteligente pode fornecer respostas instantâneas e precisas, 24/7, aos clientes, reduzindo o tempo de espera e acelerando o atendimento.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "Tomada de Decisões Baseada em Dados em Tempo Real",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Acesso a dados em tempo real sobre interações com clientes, operações e desempenho de processos.",
   },
   {
-    title: "Share work in minutes",
+    title: "Escalabilidade e Flexibilidade",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Empresas podem escalar suas operações rapidamente sem aumentar significativamente a necessidade de mão de obra.",
   },
 ];
 
 export const pricingOptions = [
   {
-    title: "Free",
-    price: "$0",
+    title: "Standard",
+    price: "$899",
     features: [
-      "Private board sharing",
-      "5 Gb Storage",
-      "Web Analytics",
-      "Private Mode",
+      "Chatbot KDA.",
+      "50 Gb Storage",
+      "Análises em tempo real",
+      "Colaboração de multissistemas",
+      "Business Intelligence (BI)",
     ],
   },
   {
     title: "Pro",
-    price: "$10",
+    price: "$2500",
     features: [
-      "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
+      "Chatbot KDA.",
+      "150 Gb Storage",
+      "Análises em tempo real",
+      "Colaboração de multissistemas",
+      "Business Intelligence (BI)",
     ],
   },
   {
     title: "Enterprise",
-    price: "$200",
+    price: "$5000",
     features: [
-      "Private board sharing",
+      "Chatbot KDA.",
       "Unlimited Storage",
-      "High Performance Network",
-      "Private Mode",
+      "Análises em tempo real",
+      "Colaboração de multissistemas",
+      "Business Intelligence (BI)",
     ],
   },
 ];
