@@ -24,11 +24,11 @@ const Navbar = () => {
             ))}
           </ul>
           <div className="hidden lg:flex justify-center space-x-12 items-center">
-            <a href="#" className="py-2 px-3 border rounded-md">
+            <a href="/login" className="py-2 px-3 border rounded-md">
               Login In
             </a>
             <a
-              href="#"
+              href="/login"
               className="bg-gradient-to-r from-yellow-500 to-yellow-500 py-2 px-3 rounded-md"
             >
               Criar uma conta
