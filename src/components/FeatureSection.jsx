@@ -8,9 +8,9 @@ const FeatureSection = () => {
           Diferenciais da kadma.
         </span>
         <h2 className="text-3xl sm:text-5xl lg:text-6xl mt-10 lg:mt-20 tracking-wide">
-          Easily build{" "}
+          Facilmente simplifique{" "}
           <span className="bg-gradient-to-r from-yellow-500 to-yellow-800 text-transparent bg-clip-text">
-            your code
+            seu serviço!
           </span>
         </h2>
       </div>

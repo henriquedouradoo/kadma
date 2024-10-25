@@ -10,7 +10,6 @@ export const navItems = [
   { label: "Diferenciais", href: "#" },
   { label: "Trabalho", href: "#" },
   { label: "Preços", href: "#" },
-  { label: "Testemunhas", href: "#" },
 ];
 
 
