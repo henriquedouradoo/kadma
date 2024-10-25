@@ -4,10 +4,13 @@ import FeatureSection from "./components/FeatureSection";
 import Workflow from "./components/Workflow";
 import Footer from "./components/Footer";
 import Pricing from "./components/Pricing";
+import { ChatBot } from "./chat";
 
 const App = () => {
+  
   return (
     <>
+      <ChatBot />
       <Navbar />
       <div className="max-w-7xl mx-auto pt-20 px-6">
         <HeroSection />
